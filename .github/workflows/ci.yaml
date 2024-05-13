@@ -43,6 +43,7 @@ jobs:
       artifact-prefix: ${{ needs.build.outputs.artifact-prefix }}
       cloud: lxd
       juju-agent-version: 3.1.8
+      architecture: arm64
       _beta_allure_report: true
     secrets:
       integration-test: |
